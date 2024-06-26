@@ -1,1 +1,1 @@
-# airtest_android
+# airtest_ios
