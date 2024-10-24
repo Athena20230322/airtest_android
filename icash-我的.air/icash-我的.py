@@ -5,6 +5,10 @@ from airtest.core.api import *
 
 auto_setup(__file__)
 
+
+from poco.drivers.ios import iosPoco
+poco = iosPoco()
+
 touch(Template(r"tpl1728370767659.png", record_pos=(0.406, 0.903), resolution=(1284, 2778)))
 touch(Template(r"tpl1728370771304.png", record_pos=(0.432, -0.907), resolution=(1284, 2778)))
 touch(Template(r"tpl1728370773743.png", record_pos=(0.253, -0.8), resolution=(1284, 2778)))
